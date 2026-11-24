@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ranking · Once de Barrio</title>
+  </head>
+  <body>
+    <main class="visor">
+      <a href="./">← Volver al juego</a>
+      <h1>Ranking en vivo</h1>
+      <p>Once de Barrio</p>
+      <label for="juego">ID del juego</label>
+      <input id="juego" type="number" min="1" value="1" />
+      <span id="estado" role="status">Conectando…</span>
+      <p id="mensaje"></p>
+      <ol id="lista"></ol>
+      <footer>Santino De Lucca</footer>
+    </main>
+    <script type="module" src="/src/visor.js"></script>
+  </body>
+</html>

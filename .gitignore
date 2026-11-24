@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+api/config.local.php
+hosting/
+docs/ENTREGA_CLASSROOM.md
+docs/EQUIPO.md
+docs/GUION_VIDEO.md

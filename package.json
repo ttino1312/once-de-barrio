@@ -1,0 +1,17 @@
+{
+  "name": "once-de-barrio-conectado",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "vivo": "node tiempo-real/servidor.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "latest",
+    "vite": "latest",
+    "vue": "latest",
+    "ws": "^8.22.0"
+  }
+}
